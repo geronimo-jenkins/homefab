@@ -5,4 +5,5 @@ function fab(n){
     return n;
 }
 
-document.write('<h2>Це число: </h2>' + fab(n));
+document.write('<h2>Це число: </h2>' + fab(n).toFixed(0));
+
